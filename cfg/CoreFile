@@ -1,6 +1,6 @@
 .:53 {
     ready
-    kubernetes cluster.local {
+    xddns cluster.local {
        pods insecure
        endpoint https://api.staging.okd.ink:6443
        kubeconfig /Users/pantianying/.kube/config

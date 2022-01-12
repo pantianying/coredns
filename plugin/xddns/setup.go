@@ -26,7 +26,7 @@ import (
 	"k8s.io/klog/v2"
 )
 
-const pluginName = "kubernetes"
+const pluginName = "xddns"
 
 var log = clog.NewWithPlugin(pluginName)
 
