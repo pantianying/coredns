@@ -1,0 +1,10 @@
+.:53 {
+    ready
+    kubernetes cluster.local {
+       pods insecure
+       endpoint https://api.staging.okd.ink:6443
+       kubeconfig /Users/pantianying/.kube/config
+       pods insecure
+    }
+    log . "{proto} Request: {name} {type} {>id} {rcode}"
+}

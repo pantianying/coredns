@@ -1,0 +1,1 @@
+func (k *Kubernetes) Records(ctx context.Context, state request.Request, exact bool) ([]msg.Service, error)
